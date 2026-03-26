@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitoring Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #023e8a;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #03045e;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section h2 {
+            color: #023e8a;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature-card {
+            background-color: white;
+            padding: 20px;
+            flex: 1 1 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background-color: #023e8a;
+            color: white;
+            padding: 15px 0;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container img {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Health Monitoring Project</h1>
+    <p>Real-time heart rate and temperature monitoring using IoT devices</p>
+</header>
+
+<nav>
+    <a href="#overview">Overview</a>
+    <a href="#features">Features</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="section" id="overview">
+    <h2>Project Overview</h2>
+    <p>This project is designed to continuously monitor a person’s heart rate and body temperature using sensors connected to an ESP32 microcontroller. The data is transmitted to a web dashboard in real-time, allowing for quick alerts in case of abnormal readings.</p>
+    <p><strong>Technologies Used:</strong> ESP32, Heart Rate Sensor (Pulse Sensor), Temperature Sensor (LM35), Arduino IDE, HTML/CSS Dashboard, JavaScript.</p>
+</div>
+
+<div class="section" id="features">
+    <h2>Features</h2>
+    <div class="features">
+        <div class="feature-card">
+            <h3>Real-Time Monitoring</h3>
+            <p>Heart rate and temperature are displayed live on a web dashboard for instant observation.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Alerts and Notifications</h3>
+            <p>Automatic alerts are sent if values exceed safe thresholds.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Data Logging</h3>
+            <p>All readings are stored for analysis over time to detect trends or irregularities.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Easy Setup</h3>
+            <p>Simple plug-and-play setup for non-technical users with minimal configuration.</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="screenshots">
+    <h2>Screenshots & Images</h2>
+    <div class="image-container">
+        <img src="https://via.placeholder.com/300x200.png?text=ESP32+Board" alt="ESP32 Board">
+        <img src="https://via.placeholder.com/300x200.png?text=Heart+Rate+Sensor" alt="Heart Rate Sensor">
+        <img src="https://via.placeholder.com/300x200.png?text=Web+Dashboard" alt="Web Dashboard">
+    </div>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>For questions, suggestions, or collaborations, you can reach me at: <strong>laddu@example.com</strong></p>
+</div>
+
+<footer>
+    &copy; 2026 Health Monitoring Project. All Rights Reserved.
+</footer>
+
+</body>
+</html>
